@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+ height: 200px;
+ background-image: url(imgex6/box1.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.box2 {
+ height: 200px;
+ background-image: url(imgex6/box2.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.box3 {
+ height: 200px;
+ background-image: url(imgex6/box3.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.box4 {
+ height: 200px;
+ background-image: url(imgex6/box4.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+/*background-sizeプロパティ*/
+/*セレクタ {*/
+  /* 元画像のサイズを維持したまま、自動的に表示される 初期値 */
+/*  background-size: auto;*/
+
+  /* 画像の縦横比を維持したまま、領域全体を埋め尽くすまで伸縮される（画像全体が表示される） */
+/*  background-size: contain;*/
+
+  /* 画像の縦横比を維持したまま、領域全体をおおうサイズで伸縮される（画像の表示されない部分も発生） */
+/*  background-size: cover;*/
+
+  /* 表示領域の幅100％ 高さ100％で表示（縦横比は無視） */
+/*  background-size: 100% 100%;*/
+
+  /* pxを指定して表示 */
+/*  background-size: 24px auto;*/
+/*}*/
